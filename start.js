@@ -1,10 +1,8 @@
-import {k} from "./kaboom.js"
-
-k.scene("start", () => {
-    k.add([
-        k.scale(2),
-        k.text("start screen!"),
-        k.pos(50, 80),
+scene("start", () => {
+    add([
+        scale(2),
+        text("start screen!"),
+        pos(50, 80),
     ])
 })
 
